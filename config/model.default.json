@@ -1,0 +1,5 @@
+{
+  "default_model_id": "../models/gui-owl-1.5-8b-think-base",
+  "output_mode": "raw_python",
+  "training_target": "screen_to_python_code"
+}

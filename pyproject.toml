@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "computer-use-stage1-raw-python"
+version = "0.1.0"
+description = "Stage 1 raw-Python training scaffold for GUI-Owl."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+train = ["accelerate", "bitsandbytes", "datasets", "peft", "pillow", "torch", "torchvision", "transformers"]
+
+[project.scripts]
+computer-use-stage1-raw-python = "computer_use_stage1_raw_python.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
