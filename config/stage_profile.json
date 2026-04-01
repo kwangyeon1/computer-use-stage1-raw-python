@@ -1,6 +1,0 @@
-{
-  "repo_role": "stage1_raw_python_training",
-  "base_model": "../models/gui-owl-1.5-8b-think-base",
-  "dataset_mode": "RAW_PYTHON_ACT",
-  "default_policy": "unrestricted_local"
-}
